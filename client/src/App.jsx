@@ -8,14 +8,12 @@ import NotesList from './features/notes/NoteList'
 import UsersList from './features/users/UserList'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Public />} />
         <Route path="login" element={<Login />} />
-
         <Route path="dash" element={<DashLayout />}>
 
           <Route index element={<Welcome />} />

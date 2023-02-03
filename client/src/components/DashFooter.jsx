@@ -1,5 +1,5 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { faHouse } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faHouse } from "@fortawesome/free-solid-svg-icons"
 import { useNavigate, useLocation } from 'react-router-dom'
 
 const DashFooter = () => {
@@ -31,4 +31,4 @@ const DashFooter = () => {
     )
     return content
 }
-export default DashFoote
+export default DashFooter
